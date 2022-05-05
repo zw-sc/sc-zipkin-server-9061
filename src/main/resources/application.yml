@@ -1,0 +1,10 @@
+server:
+  port: 9061
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false  #关闭自动检测
+spring:
+  application:
+    name: sc-zipkin-server
